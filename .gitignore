@@ -1,0 +1,66 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+_pycache_/
+
+# Credential files and secrets
+client-secret.json
+service-account.json
+youtube_credentials.pickle
+*credentials*.json
+*secret*.json
+*.pickle
+.env
+.env.local
+claude_client.py
+riddle_history.py
+riddle_history.json
+upload_history.json
+
+# API keys and sensitive configuration
+.env
+.env.local
+.env.development
+*.key
+
+# Project specific data files
+riddle_history.json
+upload_history.json
+
+# Generated media files
+*.mp4
+*.mp3
+*.wav
+final_*.mp4
+final_final_*.mp4
+silence.wav
+question_*.mp3
+answer_*.mp3
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Virtual environments
+venv/
+env/
+ENV/
+virtualenv/
