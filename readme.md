@@ -66,8 +66,9 @@ python app.py
 ## 📁 Project Structure
 
 - `app.py` - Main entry point
+- `enhanced_shorts_generator.py` - Video creation logic  
 - `youtube_shorts_uploader.py` - YouTube API integration
-- `advanced_riddle_generator.py` - Content generation
+- `riddle_generator.py` - Content generation
 
 ## ⚖️ License
 
